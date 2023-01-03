@@ -4,11 +4,11 @@ import sys
 
 def convert_md_to_html():
     if len(sys.argv) < 4:
-        print("Some argument might be lost. Input [.py file] [.md file] [.html file]")
+        print("Some arguments might be lost. Input [.py file] [.md file] [.html file]")
         return 
     
     if len(sys.argv) > 4:
-        print("Too many argument is given. Input [.py file] [.md file] [.html file]")
+        print("Too many arguments are given. Input [.py file] [.md file] [.html file]")
         return
 
     if sys.argv[1] != "markdown":
